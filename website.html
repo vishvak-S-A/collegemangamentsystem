@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>College Management System</h1>
+</header>
+
+<nav>
+    <a href="#students">Students</a>
+    <a href="#teachers">Teachers</a>
+    <a href="#courses">Courses</a>
+    <a href="#departments">Departments</a>
+</nav>
+
+<div class="container">
+    <section id="students">
+        <h2>Student Records</h2>
+        <button onclick="addStudent()">+ Add Student</button>
+        <table id="studentTable">
+            <tr>
+                <th>ID</th><th>Name</th><th>Program</th><th>Year</th>
+            </tr>
+            <tr>
+                <td>101</td><td>Sarah Parker</td><td>CS</td><td>2</td>
+            </tr>
+            <tr>
+                <td>102</td><td>John Smith</td><td>Business</td><td>3</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="teachers">
+        <h2>Teacher Directory</h2>
+        <table>
+            <tr><th>ID</th><th>Name</th><th>Department</th></tr>
+            <tr><td>T01</td><td>Dr. Angela Ruiz</td><td>CS</td></tr>
+            <tr><td>T02</td><td>Prof. Daniel Young</td><td>Math</td></tr>
+        </table>
+    </section>
+
+    <section id="courses">
+        <h2>Courses</h2>
+        <ul>
+            <li>CS101 – Introduction to Programming</li>
+            <li>CS202 – Data Structures</li>
+            <li>MATH301 – Calculus III</li>
+            <li>BIZ201 – Marketing Principles</li>
+        </ul>
+    </section>
+
+    <section id="departments">
+        <h2>Departments</h2>
+        <ul>
+            <li>Computer Science</li>
+            <li>Business Administration</li>
+            <li>Mathematics</li>
+            <li>Engineering</li>
+        </ul>
+    </section>
+</div>
+
+<footer>
+    &copy; 2025 College Management System
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
